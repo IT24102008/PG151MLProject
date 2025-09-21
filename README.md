@@ -1,4 +1,4 @@
-# Group_ID Project
+# PGNO - 151
 
 ## Overview of the Project
 
@@ -13,32 +13,38 @@ The primary dataset used in this project is `StrokeData.csv`, located in the `da
 This section will be updated with the specific roles and contributions of each group member.
 
 *   **IT Number:** [IT24102046] - [Kuruppuarachchige K.A.H.B]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Dimension Reduction (PCA)]
+    *   **Notebook:** `IT24102046_Dimension_Reduction_PCA.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
 *   **IT Number:** [IT24102070] - [Pihara H.G.T]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Feature Engineering - Selection]
+    *   **Notebook:** `IT24102070_Feature_Selection.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
 *   **IT Number:** [IT24102181] - [Dilshan R.M.R]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Handling Missing Data (bmi imputation)]
+    *   **Notebook:** `IT24102181_Handling_Missing_Data_bmi_imputation.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
 *   **IT Number:** [IT24102008] - [Withana W.Y.P]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Encoding Categorical Variables]
+    *   **Notebook:** `IT24102008_Encoding_Categorical_Variables.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
 *   **IT Number:** [IT24102131] - [De Silva P.K.N]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Outlier Removal]
+    *   **Notebook:** `IT24102131_Outlier_Removal.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
 *   **IT Number:** [IT24100618] - [Inshaf M J M]
-    *   **Subtask:** [Preprocessing_technique]
+    *   **Subtask:** [Normalization/Scaling]
+    *   **Notebook:** `IT24100618_Normalization_Scaling.ipynb`
     *   **Scenario:** [Scenario description]
     *   **Explanation:** [Explanation of the subtask]
 
@@ -59,12 +65,12 @@ Group_ID/
 │   ├── raw/             # Original dataset(s)
 │   └── external/        # Any external reference datasets (if used)
 ├── notebooks/
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 1 - IT Number & Preprocessing_technique
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 2 - IT Number & Preprocessing_technique
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 3 - IT Number & Preprocessing_technique
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 4 - IT Number & Preprocessing_technique
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 5 - IT Number & Preprocessing_technique
-│   ├── IT_Number_Preprocessing_technique.ipynb # Member 6 - IT Number & Preprocessing_technique
+│   ├── IT24102046_Dimension_Reduction_PCA.ipynb # Member 1 - IT24102046 & Dimension Reduction (PCA)
+│   ├── IT24102070_Feature_Selection.ipynb # Member 2 - IT24102070 & Feature Engineering - Selection
+│   ├── IT24102181_Handling_Missing_Data_bmi_imputation.ipynb # Member 3 - IT24102181 & Handling Missing Data (bmi imputation)
+│   ├── IT24102008_Encoding_Categorical_Variables.ipynb # Member 4 - IT24102008 & Encoding Categorical Variables
+│   ├── IT24102131_Outlier_Removal.ipynb # Member 5 - IT24102131 & Outlier Removal
+│   ├── IT24100618_Normalization_Scaling.ipynb # Member 6 - IT24100618 & Normalization/Scaling
 │   └── group_pipeline.ipynb   # Integrated pipeline (combined work)
 └── results/
     ├── eda_visualizations/  # Plots & charts (PNG/JPEG)
